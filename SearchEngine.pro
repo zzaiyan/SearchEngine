@@ -58,3 +58,15 @@ FORMS += \
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+
+DISTFILES += \
+    dict/README.md \
+    dict/hmm_model.utf8 \
+    dict/idf.utf8 \
+    dict/jieba.dict.utf8 \
+    dict/pos_dict/char_state_tab.utf8 \
+    dict/pos_dict/prob_emit.utf8 \
+    dict/pos_dict/prob_start.utf8 \
+    dict/pos_dict/prob_trans.utf8 \
+    dict/stop_words.utf8 \
+    dict/user.dict.utf8
