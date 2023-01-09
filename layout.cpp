@@ -157,6 +157,7 @@ void Layout::on_actionUndo_triggered() {
 }
 
 void Layout::on_GetButton_clicked() {
-
+  // Please change the Url to adapt you environment
+  // So as the .bat script
   QDesktopServices::openUrl(QUrl("C:/Users/1/Desktop/csdn/run.bat"));
 }
